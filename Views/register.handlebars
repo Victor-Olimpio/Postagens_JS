@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Styles/register.css">
+        <title>Cadastrar</title>
+    </head>
+    <body>
+        <header class="header-page">
+            <a href="/" class="header-title">
+                <h1 ><i class="far fa-file-code"></i> Postagens JS</h1>
+            </a>
+            <nav class="navigator-page">
+                <a class="link-navigator" href="http://localhost:3000/"><i class="fas fa-home"></i> Home</a>
+                <a class="link-navigator" href="http://localhost:3000/cadastrar"><i class="fas fa-pen"></i> Criar</a>
+            </nav>
+        </header>
+        <main class="main-page">
+            <form action="/adicionar-postagem" method="post" class="form-page">
+
+                <label class="label-title">Título da Postagem</label>
+                <input type="text" name="titulo" class="input-page">
+
+                <label class="label-title">Conteúdo da Postagem</label>
+                <textarea name="conteudo"cols="30" rows="10" class="textarea-page"></textarea>
+
+                <button type="submit" class="button-page">Cadastrar Postagem</button>
+            </form>
+        </main>
+        <footer class="footer-page">
+            <h1 class="copyright-text"><i class="far fa-copyright"></i> Victor Vasconcelos</h1>
+        </footer>
+    </body>
+    <script src="https://kit.fontawesome.com/6797397c81.js" crossorigin="anonymous"></script>
+</html>
